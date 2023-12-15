@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 5%;
+    padding: 0 5%;
     height: 100vh;
     gap: 50px;
 }
@@ -164,7 +164,7 @@ body {
 }
 
 /* RESPONSIVE */
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) {    
     .image,
     .circle {
         height: 300px;
@@ -187,8 +187,9 @@ body {
 
 @media screen and (max-width:480px) {
     .content {
+        padding: 5%;
         flex-wrap: wrap;
-        margin: 10% 0;
+        max-height: 600px;
         gap: 0;
     }
 
@@ -206,6 +207,6 @@ body {
     .text h1 {
         font-size: 40px;
         margin-top: 10px;
-        width: 70%;
+        width: 90%;
     }
 }
